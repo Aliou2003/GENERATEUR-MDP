@@ -1,0 +1,72 @@
+/* Contact.css */
+.contact-page-wrapper {
+    text-align: center;
+    padding: 0px;
+    border: 7px solid #ccc; /* Ajout de bordures */
+    border-radius: 20px; /* Ajout de coins arrondis */
+    max-width: 500px; /* Largeur maximale du formulaire */
+    margin: 0 auto; /* Centre le formulaire horizontalement */
+}
+
+.primary-heading {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-form-container {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 0px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-group input[type="email"],
+.form-group input[type="Nom"],
+.form-group textarea {
+    width: calc(50% - 20px); /* Largeur du formulaire moins le padding */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.secondary-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px; /* Ajout de marge en haut */
+}
+
+.secondary-button:hover {
+    background-color: #0056b3;
+}
+
+.contact-page-wrapper p {
+    margin-top: 20px;
+}
+
+.contact-page-wrapper p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-page-wrapper p a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,42 @@
+
+  
+  .creditCard h2 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  
+  .creditCardB .inputBox {
+    margin-bottom: 5px;
+    padding: 10px;
+    margin: 0px;
+  }
+  
+  .input input {
+    width: 20%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .buttons button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .buttons button:hover {
+    background-color: #0056b3;
+  }
+  

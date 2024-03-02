@@ -1,0 +1,83 @@
+/* Styles for UserProfile component */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 70%;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form input {
+    display: block;
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    margin-left: 70px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    width: 50%;
+}
+
+table {
+    width: 100%; /* Utiliser la largeur maximale disponible */
+    margin: 0 auto; /* Centrer le tableau */
+    border-collapse: collapse;
+}
+
+th{
+    width: 100%;
+    padding: 10px;
+    margin: 50px;
+}
+td {
+    padding: 8px; /* Réduire l'espacement du texte */
+    margin: 0px;
+    text-align: left;
+
+}
+
+
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.search-bar{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 70%;
+}

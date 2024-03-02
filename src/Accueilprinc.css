@@ -1,0 +1,58 @@
+.container {
+  display: grid;
+  grid-template-columns: 200px auto; /* Deux colonnes: sidebar et contenu principal */
+  grid-template-rows: auto;
+  height: 100vh; /* Pour occuper toute la hauteur de la page */
+}
+
+.sidebar {
+  grid-column: 1; /* Le sidebar occupe la première colonne */
+  grid-row: 1; /* Il occupe la première ligne */
+  background-color: #333; /* Couleur de fond du sidebar */
+  height: 100%; /* Le sidebar occupe toute la hauteur de la grille */
+  position: fixed;
+  top: 0; /* Positionner le sidebar au sommet de la fenêtre */
+  left: 0; /* Positionner le sidebar à gauche de la fenêtre */
+  width: 200px; /* Définir la largeur du sidebar */
+}
+
+.main-content {
+  grid-column: 2; /* Le contenu principal occupe la deuxième colonne */
+  grid-row: 1; /* Il occupe la première ligne */
+  padding: 20px; /* Ajoutez du rembourrage pour l'espace */
+}
+
+/* Styles supplémentaires pour le sidebar et le contenu principal */
+.sidebar ul {
+  list-style-type: none;
+  padding: 0; /* Suppression des marges intérieures par défaut */
+}
+
+.sidebar ul li {
+  padding: 15px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar ul li:hover {
+  background-color: #555;
+}
+
+.sidebar ul li.active {
+  background-color: #555;
+}
+
+.main-content h2 {
+  color: #333;
+}
+
+.main-content p {
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Ajout d'une classe pour la partie distincte */
+.action-buttons {
+  margin-top: 50px;
+}

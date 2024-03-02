@@ -1,0 +1,88 @@
+.dates .dateInput {
+  width: 30%; /* Largeur de la zone de saisie de la date */
+  padding-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-left: 100px;
+
+}
+div.notesBox{
+justify-content: left;
+}
+
+.notesBox .textarea {
+  width: 100%; /* Largeur de la zone de texte */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  resize: vertical; /* Redimensionnement vertical autorisé */
+}
+
+.notesBox button {
+  background-color: #0f1011;
+  padding: 10px;
+  margin: 10px;
+  width: 30%;
+  font-size: 16px;
+  border-radius: 18px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+
+}
+
+.notesBox button:hover {
+  background-color: #0056b3;
+}
+
+.tableau.de.notes {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /* Largeur du tableau */
+  max-width: 800px; /* Largeur maximale */
+  margin-top: 20px; /* Marge en haut */
+}
+
+.tableau-de-notes h2 {
+  margin-bottom: 10px;
+}
+
+.tableau-de-notes table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableau-de-notes th, .tableau-de-notes td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.tableau-de-notes th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.tableau-de-notes tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tableau-de-notes tbody tr:hover {
+  background-color: #ddd;
+}
+
+button.atchou {
+  padding: 10px;
+  background-color: #0e151c;
+  margin: 10px;
+  border-radius: 18px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}

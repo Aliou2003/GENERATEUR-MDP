@@ -1,0 +1,30 @@
+.select{
+    width:200px;
+    margin-left: 500px;
+  }
+  
+  
+  .action-buttons button {
+    margin-right: 10px;
+    padding-top: 10px;
+    background-color: #4b7097;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    background: linear-gradient(#0f0f0e, #a0aabb, #402c40, black) ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    text-align: center;
+  }
+  
+  .action-buttons button:hover {
+    background-color: #0056b3;
+  }
+  .app-item {
+    cursor: pointer;
+    font-size: xx-large;
+    list-style: none;
+    align-items: center;
+    margin-left: 470px;
+  }

@@ -1,0 +1,100 @@
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Pour centrer le texte à l'intérieur des éléments */
+    width: 255px;
+    margin: 10px;
+  }
+  
+
+  .password-group{
+    width: 230px;
+    margin-left: 25px;
+
+
+  }
+  div.association-app{
+    padding-right: 200px;
+  }
+  .input-group input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 25px;
+  }
+  
+  button.select {
+    padding: 10px;
+    margin: 0 auto; /* Pour centrer le bouton horizontalement */
+    background-color: #0e151c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 250px;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: large ;
+    border-radius: 50px;
+
+  }
+  
+  button.select:hover {
+    background-color: #3498db;
+    ;
+  }
+  
+  .message-erreur {
+    color: red;
+  }
+  
+  
+  .table-container.up {
+    top: 500px; /* Déplace le tableau vers le haut */
+    margin-right: 500px;
+  }
+  .table-container {
+    position: relative; /* Position relative pour le positionnement absolu du tableau */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 290px;
+    margin: 230px;
+
+  }
+  
+  
+  .applications-table {
+    position: absolute; /* Position absolue pour positionner le tableau à l'intérieur du conteneur */
+    top: 10; /* Alignement du haut du tableau avec le haut du conteneur */
+    width: 100%; /* Largeur du tableau */
+    top:-550px;
+  }
+  
+  .applications-table th,
+  .applications-table td {
+    padding: 20px;
+    border: 1px solid;
+    margin-left: 700px;
+    margin: 10px;
+
+  }
+  
+  .applications-table th {
+    margin:10px;
+    font-weight: bold;
+    width: 100%;
+  }
+
+  .suppression{
+    float: right;
+    margin: 5px;
+    width: 100%;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: black;
+
+  }

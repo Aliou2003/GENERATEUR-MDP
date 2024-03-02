@@ -1,0 +1,113 @@
+/*Types de styles pour l'arrière plan */
+.lolo {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    background-image: url('C:/Users/Mamadou Aliou DIALLO/Downloads/seto.jpg'); 
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+ .inscription-icon{
+  width: 0%;
+  top: 0%;
+  
+ }
+  
+  /* Styles pour la page d'inscription */
+  
+  
+  .lolo .inscription-body {
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  .lolo .inscription-input-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 5px;
+  
+  }
+  
+
+  /* Autres styles pour la page d'inscription */
+  
+  
+  .lolo div {
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 5px;
+    background-color: #f4f2fa;
+    background: linear-gradient(#e9e9e5, #6b717d, #1f2c26, rgb(248, 239, 239)) ;
+
+  }
+  
+  /*  styles pour le header */
+  .lolo h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* styles pour le label */
+  .lolo label {
+    display: block;
+    margin: 15px 0 0px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* styles pour les input */
+  .lolo input {
+    width: 100%;
+    padding: 7px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 4px solid #ddd;
+    border-radius: 20px
+  }
+  
+  /* styles pour les buttons */
+  .lolo button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    width: 50%;
+    transition: background-color 0.3s ease;
+    margin-left: 120px;
+  }
+  
+  /* Button hover effect */
+  .lolo button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Span styles for the link */
+  .lolo span {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0831e6;
+  }
+  
+  /* Span hover effect */
+  .lolo span:hover {
+    color: rgb(222, 197, 7);
+  }
+ 
+  
